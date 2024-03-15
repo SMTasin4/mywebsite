@@ -64,3 +64,33 @@ ul{
     border-radius: 10px;
     border: 2px double #024cc2;
 }
+
+.layer2{
+    padding: 0px 100px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.layer2 h1{
+    text-align: center;
+   
+}
+.skills{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.box img{
+    width: 150px;
+    height: 150px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.box p{
+    font-size: 40px;
+}
