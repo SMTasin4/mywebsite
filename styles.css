@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 .layer1{
     background-color: #1F2937;
@@ -71,9 +72,11 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-color: azure;
 }
 .layer2 h1{
     text-align: center;
+    font-size: 45px;
    
 }
 .skills{
@@ -93,4 +96,31 @@ align-items: center;
 }
 .box p{
     font-size: 40px;
+}
+.layer3{
+    background-color: #E5E7EB;
+    padding: 0px 100px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25PX;
+    flex-direction: column;
+    
+    
+}
+.layer3 .subtitle{
+    font-size: 35px;
+} 
+.btn2 a{
+text-decoration: none;
+color: white;
+}
+.layer3 .btn2{
+    background-color: #3882F6;
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px double #024cc2;
+
 }
